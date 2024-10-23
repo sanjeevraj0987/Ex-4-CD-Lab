@@ -1,8 +1,7 @@
 # Ex-4-LETTER-FOLLOWED-BY-ANY-NUMBER-OF-LETTERS-OR-DIGITS-USING-YACC-USING-YACC
 RECOGNITION OF A VALID VARIABLE WHICH STARTS WITH A LETTER FOLLOWED BY ANY NUMBER OF LETTERS OR DIGITS USING YACC
-
-# Name : Sanjeev Raj T
-# Reg no : 212222040148
+## NAME: Sanjeev Raj T
+## REGISTER NO:212222040148
 # Aim:
 To write a YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits.
 # ALGORITHM
@@ -16,6 +15,7 @@ To write a YACC program to recognize a valid variable which starts with a letter
 8.	Enter a statement as input and the valid variables are identified as output.
 # PROGRAM
 ```
+Program name:ex4.l
 %{
 /* This LEX program returns the tokens for the Expression */
 #include"y.tab.h"
@@ -64,8 +64,7 @@ yyerror(char*s)
 }
 ```
 # Output
-
-![image](4.png)
+![image](https://github.com/user-attachments/assets/4698ddb1-4df8-41b1-8467-4c40bac9e157)
 
 # Result
 A YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits is executed successfully and the output is verified.
